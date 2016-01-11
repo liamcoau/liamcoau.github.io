@@ -6,7 +6,7 @@ var settings = {
 	palette: Trianglify.colorbrewer,
 	color_space: "lab",
 	color_function: false,
-	stroke_width: 1.51,
+	stroke_width: 0.6,
 	width: 612,
 	height: 792,
 	seed: "Liam Coleman-Aulenbach"
