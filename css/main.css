@@ -1,0 +1,33 @@
+h1 {
+	position: relative;
+	color: #f7fcfd;
+	top: 15px;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+}
+
+svg {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -306px;
+	z-index: 0;
+	/*transform: rotate(180deg);*/
+}
+
+#content {
+	position: relative;
+	top: 50px;
+	height: 615px;
+	left: 50%;
+	margin-left: -307px;
+	width: 614px;
+	background-color: #f7fcfd;
+	z-index: 1;
+}
+
+#resume {
+	position: relative;
+}
+
