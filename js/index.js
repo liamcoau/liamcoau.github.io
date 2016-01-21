@@ -7,11 +7,11 @@ var settings = {
 	color_space: "lab",
 	color_function: false,
 	stroke_width: 0.6,
-	width: 612,
-	height: 792,
-	seed: "Liam Coleman-Aulenbach"
+	width: 4096,
+	height: 120,
+	seed: String(Math.floor(Math.random() * 1000))
 }
 
 $(document).ready(function () {
-	$("#resume").append(Trianglify(settings).svg({includeNamespace: true}));
+	$("#header").append(Trianglify(settings).svg({includeNamespace: true}));
 });

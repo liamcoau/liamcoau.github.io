@@ -1,7 +1,5 @@
 h1 {
-	position: relative;
 	color: #f7fcfd;
-	top: 15px;
 	width: 100%;
 	text-align: center;
 	z-index: 1;
@@ -9,25 +7,24 @@ h1 {
 
 svg {
 	position: absolute;
-	top: 0px;
-	left: 50%;
-	margin-left: -306px;
 	z-index: 0;
-	/*transform: rotate(180deg);*/
+	top: 0;
+	left: 0;
+	transform: rotate(180deg);
+	width: 100%;
+	overflow: hidden;
 }
 
-#content {
-	position: relative;
-	top: 50px;
-	height: 615px;
-	left: 50%;
-	margin-left: -307px;
-	width: 614px;
-	background-color: #f7fcfd;
-	z-index: 1;
+path {
+	z-index: 0;
 }
 
-#resume {
-	position: relative;
+#header {
+	height: 30px;
 }
 
+#pdf {
+	margin-top: 70px;
+	height: 1000px;
+	height: calc(100% - 120px);
+}
