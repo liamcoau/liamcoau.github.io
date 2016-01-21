@@ -12,6 +12,6 @@ var settings = {
 	seed: String(Math.floor(Math.random() * 1000))
 }
 
-$(document).ready(function () {
+/*$(document).ready(function () {
 	$("#header").append(Trianglify(settings).svg({includeNamespace: true}));
-});
+});*/
